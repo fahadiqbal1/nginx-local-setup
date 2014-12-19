@@ -1,0 +1,17 @@
+<?php
+
+    //Global Variables
+    define("PROJECTS_JSON","sites.json");
+    define("RESOURCE_JSON","resources.json");
+
+    //Global Functions
+    function OutputLinks ($array)
+    {
+        if(is_array($array))
+        {
+            foreach($array as $site => $location)
+            {
+                printf("<li><a href='http://%s'>%s</a></li>",$location,$site);
+            }
+        }
+    }
