@@ -3,6 +3,9 @@
     //Global Variables
     define("PROJECTS_JSON","sites.json");
     define("RESOURCE_JSON","resources.json");
+    define("USER","username");
+    define("PROJECTS_DIR","/home/user/Documents/Projects/");
+    define("EDITOR","nano"); //nano, gedit, vi, etc.
 
     //Global Functions
     function OutputLinks ($array)
