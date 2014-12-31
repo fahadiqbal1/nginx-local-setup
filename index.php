@@ -88,7 +88,7 @@
                         </li>
                         <li>
                             <div class="step">
-                                <code>sudo echo "127.0.0.1    <span class="project"></span>.dev" >> /etc/hosts</code><br>
+                                <code>sudo -- sh -c "echo 127.0.0.1 <span class="project"></span>.dev >> /etc/hosts"</code><br>
                                 <small class="helper">Add the new project to the hosts</small>
                             </div>
                         </li>
